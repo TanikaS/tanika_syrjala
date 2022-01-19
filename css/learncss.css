@@ -1,0 +1,69 @@
+h2{
+    color: red;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+h1, .redtext{
+    color: saddlebrown;
+    font-size: x-large;
+    text-decoration: underline;
+}
+
+#error {
+    background-color: seagreen;
+    color: tan;
+
+}
+span, strong, em{
+    background-color: brown;
+    border-bottom: 1px;
+}
+p::first-letter{
+    color: chocolate;
+}
+article > p{
+    background-color: rgb(196, 133, 248);
+} 
+.notebox{
+    border: 5px solid royalblue;
+    padding: .5em;
+    width: fit-content;
+}
+.notebox.warning{
+    border: 4px solid black;
+    font-weight: bold;
+}
+.notebox.danger{
+    background-color: blueviolet;
+
+}
+header{
+    background-color: darkkhaki;
+
+}
+mytitle{
+    background-color: darkslategray;
+    color: floralwhite;
+}
+/* unvisited link */
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+    text-decoration: line-through;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+    text-decoration: underline;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
