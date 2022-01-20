@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <style>
+        .flexContainer {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: red;
+        align-content: space-between;
+      }
+      .flexContainer > div, div {
+          background-color: coral;
+          margin: 10px;
+          width: fit-content;
+          font: larger;
+      }
+      header, footer {
+          background-color: cornflowerblue;
+          min-height: 70px;
+
+      }
+.leftbar, .rightbar{ 
+    background-color: black;
+    color:blanchedalmond;
+    min-height:  300px;
+    width: 20%;
+}
+.main {
+    background-color: brown;
+    color: darkgreen;
+    min-height: 300px;
+    width: 60%;
+}
+
+    </style>
+</head>
+<body>
+    <header>this is going to be our header.</header>
+    <div class="flexContainer">
+
+<div class="leftbar"> division 1
+<p>left bar</p>
+<p>hello</p>
+</div>
+
+<div>division 2</div>
+<div class="rightbar">division 3 : right bar</div>
+
+    </div>
+    <footer>our footer is going here. </footer>
+
+</body>
+</html>
