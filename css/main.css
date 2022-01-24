@@ -2,7 +2,7 @@ body {
     background-color: rgb(228, 204, 172);
 }
 .red {
-    background-color: rgb(236, 61, 61);
+    background-color: rgb(61, 151, 236);
 }
 
 h3{
@@ -13,7 +13,7 @@ h3{
 }
 
 footer {
-    background: rgb(236, 61, 61);
+    background: rgb(61, 151, 236);
     height: 100px;
     align-content: center;
     font-size: x-large;
