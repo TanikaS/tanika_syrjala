@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(228, 204, 172);
+}
+.red {
+    background-color: rgb(236, 61, 61);
+}
+
+h3{
+  font-size: 24px;
+ text-align: center;
+ border-bottom: 4px solid rgb(5, 8, 0);
+ text-transform: uppercase; 
+}
+
+footer {
+    background: rgb(236, 61, 61);
+    height: 100px;
+    align-content: center;
+    font-size: x-large;
+    justify-content: center;
+  }
+
+  img{
+    padding: 10px;
+    width: 310px;
+
+    }
